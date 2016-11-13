@@ -143,13 +143,13 @@ def run_bc():
         print("\t" + str(n) + "..  ")
         n = n-1
         sleep(1)
-    print("\n\n")
 
-    if getattr(sop, 'invoke') == "y":
-        scommand = "xterm -T Invoke[Bettercap] -bg black -e " + command
+    if getattr(sop, 'invoke').lower() == "y":
+        scommand = "xterm -T Invoke[Bettercap] -bg black -fg white -e " + command
         args = shlex.split(scommand)
         subprocess.Popen(args)
     else:
+        print("\n\n")
         os.system(command)
     print("\n\n")
 # END BETTERCAP

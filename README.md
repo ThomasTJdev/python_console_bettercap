@@ -11,9 +11,9 @@ Just a simple console/frontend for Bettercap in python
 
 ## The script
  Fill in your options and run.
- **set interface eno1**
- **run**
- 
+ - **set interface eno1**
+ - **run**
+
 ## Todo
  Add more options
  * saving file to
@@ -22,4 +22,4 @@ Just a simple console/frontend for Bettercap in python
 License
 -------
 
-MIT, 2016 Thomas TJ (TTJ)
+MIT - 2016 Thomas TJ (TTJ)
